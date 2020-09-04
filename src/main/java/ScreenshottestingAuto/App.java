@@ -26,13 +26,13 @@ public class App {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
        capabilities.setCapability("platform", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "Debugging screenshot testing");
+        capabilities.setCapability("build", "Azure DevOPs");
         capabilities.setCapability("name", browser);
-        capabilities.setCapability("network", false); // To enable network logs
+        capabilities.setCapability("network", true); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot
         capabilities.setCapability("video", true); // To enable video recording
-        capabilities.setCapability("console", false); // To capture console logs
-        capabilities.setCapability("resolution", "1920x1080");
+        capabilities.setCapability("console", true); // To capture console logs
+        capabilities.setCapability("resolution", "1680x1050");
         capabilities.setCapability("fixedIP", fixedIp);
 
 
