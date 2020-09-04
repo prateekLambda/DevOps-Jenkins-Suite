@@ -34,7 +34,7 @@ public class MarkAsBug {
 
          /*   WebDriverWait wait = new WebDriverWait(driver, 60);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"sketch\"]")));*/
-            Thread.sleep(15000);
+         /*   Thread.sleep(15000);
             Actions builder = new Actions(driver);
             WebElement canvas = driver.findElement(By.xpath("//*[@id=\"sketch\"]"));  // Marking a Bug on Screenshot
             builder.build();
@@ -62,7 +62,7 @@ public class MarkAsBug {
 
             driver.findElement(By.cssSelector("#lambda_summary > input[type=text]")).sendKeys("Checking screenshot");
 
-            driver.findElement(By.id("nuisance_js_submitBtn")).click();
+            driver.findElement(By.id("nuisance_js_submitBtn")).click(); */
            /* WebElement Project = driver.findElement(By.cssSelector("#lambda_project > div > p"));
             Actions actions = new Actions(driver);
 
@@ -97,6 +97,7 @@ public class MarkAsBug {
             WebElement summary = driver.findElement(By.xpath("//*[@id=\"lambda_summary\"]/input"));
             summary.sendKeys("Here is the Story of my bug");
           */
+            /*
             StopWatch creatingIssue = new StopWatch();
             creatingIssue.start();
        //    driver.findElement(By.cssSelector("#default-menu > div > div.col-md-4.col-xs-4.paddz0 > ul > li:nth-child(5) > a")).click();
@@ -110,9 +111,9 @@ public class MarkAsBug {
             } else {
                 System.out.println("Creating issue sucessful");
             }
-            System.out.println("Logging Bug time" + "   " + creatingIssuems);
-            driver.switchTo().defaultContent();
+            System.out.println("Logging Bug time" + "   " + creatingIssuems); */
             //   TestHTMLReporter.generateTable("Logging Bug time" +creatingIssuems);
+            
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
             driver.findElement(By.cssSelector("#default-menu > div > div.col-md-4.col-xs-4.paddz0 > ul > li:nth-child(5) > a")).click();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
