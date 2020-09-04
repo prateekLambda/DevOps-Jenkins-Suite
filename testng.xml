@@ -13,21 +13,25 @@
         </packages>
     </test> <!-- Test -->
 
-  <!--  <test name="WIN10TEST">
+    <test name="WIN10TEST">
         <parameter name="browser" value="firefox"/>
         <parameter name="version" value="66.0"/>
         <parameter name="platform" value="WIN10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+
         <packages>
             <package name="ScreenshottestingAuto"/>
         </packages>
     </test>
     <test name="MACTEST">
-    <parameter name="browser" value="safari"/>
-    <parameter name="version" value="12.0"/>
-    <parameter name="platform" value="macOS Mojave"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="70.0"/>
+    <parameter name="platform" value="win10"/>
+    <parameter name="fixedIp" value="10.47.240.252"/>
+
     <packages>
         <package name="ScreenshottestingAuto"/>
     </packages>
-    </test> -->
+    </test> 
 
 </suite>
