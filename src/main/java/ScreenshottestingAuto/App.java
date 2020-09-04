@@ -13,8 +13,8 @@ import java.net.URL;
 
 
 public class App {
-   public String username = "prateek.delguy";
-    public String accesskey = "9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE";
+   public String username = "prateeks";
+    public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
     public String gridURL = "@stage-hub.lambdatest.com/wd/hub";
     boolean status = false;
