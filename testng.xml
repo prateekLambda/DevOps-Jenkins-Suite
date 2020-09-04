@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="LambaTestSuite" parallel="tests">
+
+    <test name="1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="83.0"/>
+        <parameter name="platform" value="win10"/>
+        <parameter name="fixedIp" value="10.5.0.28"/>
+
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test> <!-- Test -->
+
+    <test name="2">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="66.0"/>
+        <parameter name="platform" value="WIN10"/>
+        <parameter name="fixedIp" value="10.7.0.23"/>
+
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="3">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.25"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="4">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.29"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="5">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.30"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="6">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.34"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="6">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.35"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="7">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.36"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="8">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.39"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="9">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.40"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="10">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.45"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="11">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.7.0.50"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <!--
+    <test name="12">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="13">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="14">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="15">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="16">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="17">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="18">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="19">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+    <test name="20">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
+        <parameter name="platform" value="Win10"/>
+        <parameter name="fixedIp" value="10.47.240.252"/>
+        <packages>
+            <package name="ScreenshottestingAuto"/>
+        </packages>
+    </test>
+
+
+-->
+
+</suite>
