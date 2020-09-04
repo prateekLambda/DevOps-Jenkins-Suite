@@ -33,7 +33,7 @@ public class App {
         capabilities.setCapability("video", true); // To enable video recording
         capabilities.setCapability("console", false); // To capture console logs
         capabilities.setCapability("resolution", "1920x1080");
-   //     capabilities.setCapability("fixedIP", fixedIp);
+        capabilities.setCapability("fixedIP", fixedIp);
 
 
         try {
