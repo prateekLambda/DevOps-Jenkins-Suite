@@ -16,7 +16,7 @@ public class App {
    public String username = "prateek.delguy";
     public String accesskey = "9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub";
     boolean status = false;
 
     @BeforeTest
